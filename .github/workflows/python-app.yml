@@ -37,5 +37,5 @@ jobs:
     - name: Test with unittest
       run: |
         pip install mock
-        cd tests; python3 -m unittest
+        python3 -m unittest discover
       
