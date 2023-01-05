@@ -56,7 +56,7 @@ The poker itself is very very simple:
   </textarea>
 <br><h3>Output:</h3>
     In this case the code will simulate four 
-    <a href="https://github.com/fds1638/ThreeCardPoker/blob/master/runner/gamerunner.py">rounds of the game</a>, giving the following output:
+    <a href="https://github.com/fds1638/ThreeCardPoker/blob/master/runner/gamerunner.py">rounds of the game</a>, giving the following output:<br>
   <textarea rows="18"    cols="55">
   Alice drew J and Bob drew Q
   Alice folded
@@ -82,7 +82,7 @@ The poker itself is very very simple:
     A <a href="https://github.com/fds1638/ThreeCardPoker/blob/master/tests/test_certain_game.py">unit test</a> where Player One ("Alice") draws a Queen and Player Two ("Bob") draws a King is set up, because that is the only draw for which we know
     exactly what they will do every time (both of them will bet). The <code>mock</code> library is imported to override the random output of the draw.
     A GitHub action runs automatically on each <code>push</code> to the repo, with the yaml file being mostly default boilerplate but with the last
-    five lines running the substance of the unit test:
+    five lines running the substance of the unit test:<br>
   <textarea rows="5"    cols="55">
         - name: Test with unittest
       run: |
