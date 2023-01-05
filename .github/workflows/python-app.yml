@@ -37,5 +37,6 @@ jobs:
     - name: Test with unittest
       run: |
         pip install mock
+        pip install numpy
         python3 -m unittest discover
       
