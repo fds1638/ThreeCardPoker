@@ -14,7 +14,7 @@ class TestCertainGame(unittest.TestCase):
         where we are sure of what both players will do (i.e. bet).
         """
         mock_deal_cards.return_value = 'Q', 'K'
-        g, p1, p2, _ = runner.gamerunner.initialize_game(file="/full/path/to/config/config.json")
+        g, p1, p2, _ = runner.gamerunner.initialize_game(file="config/config.json")
         g, p1, p2 = runner.gamerunner.play_a_round(g, p1, p2)
         print('{} has {} and {} has {}\n'.format(p1.name, p1.amount, p2.name, p2.amount))
         self.assertEqual(p1.amount,18)
