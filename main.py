@@ -5,7 +5,6 @@ import numpy as np
 import games
 import players
 from games.game import Game
-#from players import player
 
 def deal_cards():
     """From a deck of three return two cards."""
