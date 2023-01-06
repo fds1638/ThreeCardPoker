@@ -83,7 +83,7 @@ The poker itself is very very simple:
     exactly what they will do every time (both of them will bet). The <code>mock</code> library is imported to override the random output of the draw:<br>
    <textarea rows="1"    cols="55">
      <code>mock_deal_cards.return_value = 'Q', 'K'</code>
-  </textarea>
+  </textarea><br>
     A GitHub action runs automatically on each <code>push</code> to the repo, with the yaml file being mostly default boilerplate but with the last
     five lines running the substance of the unit test:<br>
   <textarea rows="5"    cols="55">
