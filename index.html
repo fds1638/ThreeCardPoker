@@ -78,7 +78,7 @@ The poker itself is very very simple:
   Alice has 19 and Bob has 11
   </textarea>
    
-<br><h3>Testing:</h3>
+    <br><h3>Unit Testig with <code>unittest</code> and GitHub Actions:</h3>
     A <a href="https://github.com/fds1638/ThreeCardPoker/blob/master/tests/test_certain_game.py">unit test</a> where Player One ("Alice") draws a Queen and Player Two ("Bob") draws a King is set up, because that is the only draw for which we know
     exactly what they will do every time (both of them will bet). The <code>mock</code> library is imported to override the random output of the draw.
     A GitHub action runs automatically on each <code>push</code> to the repo, with the yaml file being mostly default boilerplate but with the last
